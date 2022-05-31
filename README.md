@@ -11,7 +11,7 @@ To get started you will need:
 - A Hubspot account - [Sign-Up](https://app.hubspot.com/signup-hubspot/crm?hubs_signup-cta=login-signup-cta&hubs_signup-url=app.hubspot.com%2Flogin&uuid=6d8713b6-037b-45ae-b99c-b1cd982d9849&step=landing_page)
 - A Hubspot CRM Operations Professional Plan or Higher - [Plan Pricing](https://app.hubspot.com/pricing/22065255/operations?products=operations-hub-starter_1&term=annual)
 
-#### Configuring the Workflow:
+#### Configuring the trigger/s for the workflow:
 
 1. Click on the "Automation" tab from the menu bar and select "Workflows" from the drpdown menu. 
   
@@ -36,3 +36,9 @@ To get started you will need:
 6. If you want to cross check the filter setup click on "Test criteria" button. Click on "Save" button to save filter/s after the configuration.
 
     <img width="" alt="TestSaveFilter" src="https://user-images.githubusercontent.com/66475561/171113227-e3096f52-ac26-40cb-8da5-8af649316ce8.png">
+
+#### Configuring the action for the workflow:
+
+8. Click on the "+" button to add the action.
+
+    <img width="" alt="AddAction" src="https://user-images.githubusercontent.com/66475561/171116487-f64ea5b8-67a3-4b20-b76a-63a484ba8f99.png">
