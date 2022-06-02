@@ -13,9 +13,9 @@ To get started you will need:
 
 #### Configuring the trigger/s for the workflow:
 
-1. Click on the "Automation" tab from the menu bar and select "Workflows" from the drpdown menu. 
+1. Click on the "Automation" tab from the menu bar and open the "Workflows" in a new tab from the drpdown menu. 
   
-    <img width="" alt="SelectWorkflow" src="https://user-images.githubusercontent.com/66475561/171106218-4daef527-c496-4052-97c3-7880c6532b37.png">
+    <img width="" alt="SelectWorkflow" src="https://user-images.githubusercontent.com/66475561/171551258-56f52963-e5cd-4cdb-a10b-11a8911a3e6f.png">
   
 2. Click on "Create workflow" button.
 
@@ -39,6 +39,40 @@ To get started you will need:
 
 #### Configuring the action for the workflow:
 
-8. Click on the "+" button to add the action.
+7. Switch to the previous tab and click on the "Settings" icon.
+
+    <img width="" alt="Settings" src="https://user-images.githubusercontent.com/66475561/171551905-05f9f07c-7705-4fdc-a7ec-7299db9c1774.png">
+    
+8. Click and copy the API key from the Settings menu.
+
+    <img width="" alt="API" src="https://user-images.githubusercontent.com/66475561/171552660-7108cb83-8c2d-486d-925d-bace2d9691cc.png">
+
+9. Switch to workflows tab and click on the "+" button to add the action.
 
     <img width="" alt="AddAction" src="https://user-images.githubusercontent.com/66475561/171116487-f64ea5b8-67a3-4b20-b76a-63a484ba8f99.png">
+    
+10. Click on "Custom code" from the action list.
+
+    <img width="" alt="Code" src="https://user-images.githubusercontent.com/66475561/171549087-d72ba017-382c-435a-b513-33ef71c3cb79.png">
+    
+11. Click on "Choose a secret" dropdown menu and select "Add secret" to add your Hubspot API Key.
+
+    <img width="" alt="HSS" src="https://user-images.githubusercontent.com/66475561/171553371-11d7fd05-5ec0-4724-a70f-16c7c4d1e26b.png">
+    
+12. Type "HPKEY" as "Secret name" and paste the Hubspot API Key under the "Secret value". Click on "Save" button.
+
+    <img width="" alt="HSP" src="https://user-images.githubusercontent.com/66475561/171553987-103ea2fb-2871-4964-8bb9-7d3f8f9e4acd.png">
+    
+13. We will need your ClickSend credentials to send SMS - [ClickSend Credentials](https://dashboard.clicksend.com/account/subaccounts?utm_source=github&utm_medium=referral&utm_campaign=integration-sqs&utm_content=cs-credentials)
+    
+14. Copy your username from the ClickSend dashboard and click on "Add secret".
+
+    <img width="" alt="CSUD" src="https://user-images.githubusercontent.com/66475561/171555139-07b5bb00-3e85-424c-9895-1b7268a91daa.png">
+    
+15. Type "CSUSERNAME" as "Secret name" and paste the username under the "Secret value". Click on "Save" button.
+
+    <img width="" alt="CSUH" src="https://user-images.githubusercontent.com/66475561/171556938-3179c4dd-8307-4041-8c8b-c8b6ef2b812a.png">
+
+16. Repeat the steps 14 and 15 to add your ClickSend API Key, use "CSKEY" as "Secret name" and API Key as "Secret value".
+
+    
