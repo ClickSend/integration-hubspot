@@ -75,4 +75,8 @@ To get started you will need:
 
 16. Repeat the steps 14 and 15 to add your ClickSend API Key, use "CSKEY" as "Secret name" and API Key as "Secret value".
 
+    <img width="" alt="CSUK" src="https://user-images.githubusercontent.com/66475561/175233304-de0381f1-2029-4bf6-bfd0-ff7e333012e2.png">
     
+17. Remove the existing code, then copy and paste the code from "Hubspot_CustomCode.js" in the "Code" section.
+    
+    <img width="" alt="CSUK" src="https://user-images.githubusercontent.com/66475561/175233304-de0381f1-2029-4bf6-bfd0-ff7e333012e2.png">
