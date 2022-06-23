@@ -81,6 +81,6 @@ To get started you will need:
     
     <img width="" alt="CSUC" src="https://user-images.githubusercontent.com/66475561/175239615-973c89bf-ada3-4094-b6f1-7af66c033d14.png">
 
-18. Change the content of message body as per the need. Click on the "Save" button after making te changes.
+18. Change the content of message body as per the need. Click on the "Save" button after making the changes.
 
     <img width="" alt="CSUM" src="https://user-images.githubusercontent.com/66475561/175241369-38f4eb6f-efaa-4540-ad63-d2ffa6c0a882.png">
