@@ -2,7 +2,7 @@
 
 This tutorial will shows how to send automated SMS using ClickSend API using the Hubspot CRM.  For troubleshooting purposes please [contact our support team](https://www.clicksend.com/help?utm_source=github&utm_medium=referral&utm_campaign=integration-sqs&utm_content=contact-support).
 
-#### Prequisites:
+### Prequisites:
 
 To get started you will need:
 
@@ -11,7 +11,7 @@ To get started you will need:
 - A Hubspot account - [Sign-Up](https://app.hubspot.com/signup-hubspot/crm?hubs_signup-cta=login-signup-cta&hubs_signup-url=app.hubspot.com%2Flogin&uuid=6d8713b6-037b-45ae-b99c-b1cd982d9849&step=landing_page)
 - A Hubspot CRM Operations Professional Plan or Higher - [Plan Pricing](https://app.hubspot.com/pricing/22065255/operations?products=operations-hub-starter_1&term=annual)
 
-#### Configuring the trigger/s for the workflow:
+### Configuring the trigger/s for the workflow:
 
 1. Click on the "Automation" tab from the menu bar and open the "Workflows" in a new tab from the drpdown menu. 
   
@@ -37,7 +37,7 @@ To get started you will need:
 
     <img width="" alt="TestSaveFilter" src="https://user-images.githubusercontent.com/66475561/171113227-e3096f52-ac26-40cb-8da5-8af649316ce8.png">
 
-#### Configuring the action for the workflow:
+### Configuring the action for the workflow:
 
 7. Switch to the previous tab and click on the "Settings" icon.
 
@@ -84,3 +84,25 @@ To get started you will need:
 18. Change the content of message body as per the need. Click on the "Save" button after making the changes.
 
     <img width="" alt="CSUM" src="https://user-images.githubusercontent.com/66475561/175241369-38f4eb6f-efaa-4540-ad63-d2ffa6c0a882.png">
+  
+### Testing (Optional)
+
+19. To test the action select a contact from the drop-down list and click on the "Test" button.
+
+    <img width="" alt="TA" src="https://user-images.githubusercontent.com/66475561/176082471-c7b7ff29-0c8c-48bc-bb06-a5a27e559149.png">
+
+20. The output should have a "SUCCESS" value.
+
+    <img width="" alt="SUV" src="https://user-images.githubusercontent.com/66475561/176082555-02d8f5cb-aa5d-476b-ad9b-19302c2c96f7.png">
+
+### Publishing the Workflow
+
+21. Click on "Review and publish" button.
+
+    <img width="" alt="RAP" src="https://user-images.githubusercontent.com/66475561/176083843-6a4ba9eb-4bfd-44f3-8702-7381d3c020b3.png">
+
+22. Review the Enrollment, Unenrollment and Timing options. Click on the "Turn on" button.
+
+    <img width="" alt="WTO" src="https://user-images.githubusercontent.com/66475561/176083950-72fd02ad-4ce2-4d82-9643-52e6f621ceea.png">
+
+23. The workflow will now automatically send the SMS whenever a contact triggers the workflow.
