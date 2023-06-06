@@ -89,13 +89,13 @@ To get started you will need:
 
     <img width="" alt="CSUK" src="https://user-images.githubusercontent.com/66475561/175233304-de0381f1-2029-4bf6-bfd0-ff7e333012e2.png">
     
-20. Remove the existing code, then copy and paste the code from "Hubspot_CustomCode.js" in the "Code" section.
-    
-    <img width="" alt="CSUC" src="https://user-images.githubusercontent.com/66475561/175239615-973c89bf-ada3-4094-b6f1-7af66c033d14.png">
+20. Remove the existing code, then copy and paste the code from "Hubspot_CustomCode.js" in the "Code" section. Make sure Hubspot Client v3 is selected.
+
+    <img width="" alt="CSUC" src="https://github.com/ClickSend/integration-hubspot/assets/66475561/166dc4f8-996b-4c9c-95e4-7dcb4faa1d53.png">
 
 21. Change the content of message body as per the need. Click on the "Save" button after making the changes.
 
-    <img width="" alt="CSUM" src="https://user-images.githubusercontent.com/66475561/175241369-38f4eb6f-efaa-4540-ad63-d2ffa6c0a882.png">
+    <img width="" alt="CSUM" src="https://github.com/ClickSend/integration-hubspot/assets/66475561/7c389fb7-8104-4eae-baed-dfed6c342339.png">
   
 ### Testing (Optional)
 
