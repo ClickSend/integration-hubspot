@@ -43,66 +43,78 @@ To get started you will need:
 
     <img width="" alt="Settings" src="https://user-images.githubusercontent.com/66475561/171551905-05f9f07c-7705-4fdc-a7ec-7299db9c1774.png">
     
-8. Click and copy the API key from the Settings menu.
+8. Click on "Private Apps" from the Settings menu and click on "Create a private app" button.
 
-    <img width="" alt="API" src="https://user-images.githubusercontent.com/66475561/171552660-7108cb83-8c2d-486d-925d-bace2d9691cc.png">
+    <img width="" alt="API" src="https://github.com/ClickSend/integration-hubspot/assets/66475561/e7743aec-5557-4c06-a106-04945019bbad.png">
+    
+9. Add the "Name" and "Description" for the app.
 
-9. Switch to workflows tab and click on the "+" button to add the action.
+    <img width="" alt="NameDescription" src="https://github.com/ClickSend/integration-hubspot/assets/66475561/ea20b38f-7e84-40e4-a768-eaf4fdaf8d04.png">
+
+10. Select the scopes as shown in the image and click on "Create app" button.
+
+    <img width="" alt="Scopes" src="https://github.com/ClickSend/integration-hubspot/assets/66475561/72cecb08-7dad-42e7-8791-150993db27db.png">
+
+11. Click and copy the token. 
+
+    <img width="" alt="Token" src="https://github.com/ClickSend/integration-hubspot/assets/66475561/095b44d3-cab6-4eb1-8c41-7f4c351ee7c1.png">
+
+12. Switch to workflows tab and click on the "+" button to add the action.
 
     <img width="" alt="AddAction" src="https://user-images.githubusercontent.com/66475561/171116487-f64ea5b8-67a3-4b20-b76a-63a484ba8f99.png">
     
-10. Click on "Custom code" from the action list.
+13. Click on "Custom code" from the action list.
 
     <img width="" alt="Code" src="https://user-images.githubusercontent.com/66475561/171549087-d72ba017-382c-435a-b513-33ef71c3cb79.png">
     
-11. Click on "Choose a secret" dropdown menu and select "Add secret" to add your Hubspot API Key.
+14. Click on "Choose a secret" dropdown menu and select "Add secret" to add your Private app token.
 
     <img width="" alt="HSS" src="https://user-images.githubusercontent.com/66475561/171553371-11d7fd05-5ec0-4724-a70f-16c7c4d1e26b.png">
     
-12. Type "HPKEY" as "Secret name" and paste the Hubspot API Key under the "Secret value". Click on "Save" button.
+15. Type "HPKEY" as "Secret name" and paste the Private app token under the "Secret value". Click on "Save" button.
 
     <img width="" alt="HSP" src="https://user-images.githubusercontent.com/66475561/171553987-103ea2fb-2871-4964-8bb9-7d3f8f9e4acd.png">
     
-13. We will need your ClickSend credentials to send SMS - [ClickSend Credentials](https://dashboard.clicksend.com/account/subaccounts?utm_source=github&utm_medium=referral&utm_campaign=integration-sqs&utm_content=cs-credentials)
+16. We will need your ClickSend credentials to send SMS - [ClickSend Credentials](https://dashboard.clicksend.com/account/subaccounts?utm_source=github&utm_medium=referral&utm_campaign=integration-sqs&utm_content=cs-credentials)
     
-14. Copy your username from the ClickSend dashboard and click on "Add secret".
+17. Copy your username from the ClickSend dashboard and click on "Add secret".
 
     <img width="" alt="CSUD" src="https://user-images.githubusercontent.com/66475561/171555139-07b5bb00-3e85-424c-9895-1b7268a91daa.png">
     
-15. Type "CSUSERNAME" as "Secret name" and paste the username under the "Secret value". Click on "Save" button.
+18. Type "CSUSERNAME" as "Secret name" and paste the username under the "Secret value". Click on "Save" button.
 
     <img width="" alt="CSUH" src="https://user-images.githubusercontent.com/66475561/171556938-3179c4dd-8307-4041-8c8b-c8b6ef2b812a.png">
 
-16. Repeat the steps 14 and 15 to add your ClickSend API Key, use "CSKEY" as "Secret name" and API Key as "Secret value".
+19. Repeat the steps 14 and 15 to add your ClickSend API Key, use "CSKEY" as "Secret name" and API Key as "Secret value".
 
     <img width="" alt="CSUK" src="https://user-images.githubusercontent.com/66475561/175233304-de0381f1-2029-4bf6-bfd0-ff7e333012e2.png">
     
-17. Remove the existing code, then copy and paste the code from "Hubspot_CustomCode.js" in the "Code" section.
+20. Remove the existing code, then copy and paste the code from "Hubspot_CustomCode.js" in the "Code" section.
     
     <img width="" alt="CSUC" src="https://user-images.githubusercontent.com/66475561/175239615-973c89bf-ada3-4094-b6f1-7af66c033d14.png">
 
-18. Change the content of message body as per the need. Click on the "Save" button after making the changes.
+21. Change the content of message body as per the need. Click on the "Save" button after making the changes.
 
     <img width="" alt="CSUM" src="https://user-images.githubusercontent.com/66475561/175241369-38f4eb6f-efaa-4540-ad63-d2ffa6c0a882.png">
   
 ### Testing (Optional)
 
-19. To test the action select a contact from the drop-down list and click on the "Test" button.
+22. To test the action select a contact from the drop-down list and click on the "Test" button.
 
     <img width="" alt="TA" src="https://user-images.githubusercontent.com/66475561/176082471-c7b7ff29-0c8c-48bc-bb06-a5a27e559149.png">
 
-20. The output should have a "SUCCESS" value.
+23. The output should have a "SUCCESS" value.
 
     <img width="" alt="SUV" src="https://user-images.githubusercontent.com/66475561/176082555-02d8f5cb-aa5d-476b-ad9b-19302c2c96f7.png">
 
 ### Publishing the Workflow
 
-21. Click on "Review and publish" button.
+24. Click on "Review and publish" button.
 
     <img width="" alt="RAP" src="https://user-images.githubusercontent.com/66475561/176083843-6a4ba9eb-4bfd-44f3-8702-7381d3c020b3.png">
 
-22. Review the Enrollment, Unenrollment and Timing options. Click on the "Turn on" button.
+25. Review the Enrollment, Unenrollment and Timing options. Click on the "Turn on" button.
 
     <img width="" alt="WTO" src="https://user-images.githubusercontent.com/66475561/176083950-72fd02ad-4ce2-4d82-9643-52e6f621ceea.png">
 
-23. The workflow will now automatically send the SMS whenever a contact triggers the workflow.
+26. The workflow will now automatically send the SMS whenever a contact triggers the workflow.
