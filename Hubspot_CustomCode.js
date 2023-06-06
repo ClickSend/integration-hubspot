@@ -12,7 +12,7 @@ exports.main = async (event, callback) => {
 
 	const result = Buffer.from(username+":"+key).toString('base64');
 
-    const hubspotClient = new hubspot.Client({ apiKey: process.env.HPKEY });
+    const hubspotClient = new hubspot.Client({"accessToken":process.env.HPKEY});
     const ApiResponse = await hubspotClient.crm.contacts.basicApi.getById(
       event.object.objectId,
       ['phone', 'firstname', 'lastname']
